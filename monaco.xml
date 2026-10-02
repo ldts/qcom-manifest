@@ -13,8 +13,8 @@
 
   <!-- Monaco support under upstream review plus patches not submitted yet
        (DSPs, reset, U-Boot SPL, Linux). -->
-  <project path="linux"                remote="embeddedandroid" name="linux.git"                revision="985b2f70cf1528955befe96fde1d6151ca62683e" upstream="monza" clone-depth="1" />
-  <project path="arm-trusted-firmware" remote="embeddedandroid" name="arm-trusted-firmware.git" revision="9f1d6711033c5e8336c6ba4b05e51837065b9f97" upstream="monza"/>
-  <project path="u-boot"               remote="embeddedandroid" name="u-boot.git"               revision="952c17fd38a893d37bfb883dabbb14847c4c4ba0" upstream="monza"/>
-  <project path="optee_os"             remote="embeddedandroid" name="optee_os.git"             revision="205246892290e783722bb3543868d2ca12674be4" upstream="ventuno-q"/>
+  <project path="linux"                remote="embeddedandroid" name="linux.git"                revision="0b282bab8776080e49a516cb326f2f0b2fa8a324" upstream="ventuno-q-v3" clone-depth="1" />
+  <project path="arm-trusted-firmware" remote="embeddedandroid" name="arm-trusted-firmware.git" revision="4930db330cb03cfe2124f41bf1852cff9e7abd22" upstream="ventuno-q-v3"/>
+  <project path="u-boot"               remote="embeddedandroid" name="u-boot.git"               revision="65bcabd0b7efc4b7a0bacefd3c8fa9b47b4eda17" upstream="ventuno-q-v3"/>
+  <project path="optee_os"             remote="embeddedandroid" name="optee_os.git"             revision="93ca86afabd279bd91a97eba94859793a9e8ad0d" upstream="monaco-pas"/>
 </manifest>
